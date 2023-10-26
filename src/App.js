@@ -2,6 +2,7 @@ import React from "react";
 import Card from './components/Card';
 import Data from './data.json';
 import List from "./components/list";
+import NestedList from "./components/nested_data_list";
 
 
 // function App(){
@@ -23,7 +24,8 @@ import List from "./components/list";
 export default function App(){
     return (
         <>
-        <List />
+        {/* <List /> */}
+        {<NestedList />}
         
         </>
     );
