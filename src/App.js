@@ -10,13 +10,19 @@ import React from "react";
 // import ReactBootstrap from "./react_bootstrap/ReactBootstrap";
 
 
-import From from "./From/From";
+// import From from "./From/From";
+import Child from "./State_Lifting/Child";
 
 // import Hocks_UseState2 from "./Hocks_UseState/index2";
 // import Event_Binding from "./Event_Binding";
 // import Event_Hendler_Class from "./Event_Hendler_Class";
 // import Conditional_Rendering from "./conditional_rendaring";
 export default function App(){
+    const data ="i am a (app)";
+    const handleChildData=(childData)=>{
+        console.log(childData);
+
+    }
     return (
         <>   
         {/* {<NestedList />}
@@ -28,7 +34,7 @@ export default function App(){
         {/* {<STATE />}
          */}
          {/* {<Conditional_Rendering />} */}
-         {<From />}
+         {<Child  data={data} onChildData={handleChildData} />}
          
         </>
     );
