@@ -10,7 +10,8 @@ import React from "react";
 // import ReactBootstrap from "./react_bootstrap/ReactBootstrap";
 
 
-import Event_Binding from "./Event_Binding";
+import Hocks_UseState2 from "./Hocks_UseState/index2";
+// import Event_Binding from "./Event_Binding";
 // import Event_Hendler_Class from "./Event_Hendler_Class";
 // import Conditional_Rendering from "./conditional_rendaring";
 export default function App(){
@@ -25,7 +26,7 @@ export default function App(){
         {/* {<STATE />}
          */}
          {/* {<Conditional_Rendering />} */}
-         {<Event_Binding />}
+         {<Hocks_UseState2 />}
          
         </>
     );
