@@ -12,7 +12,7 @@ import React from "react";
 
 import From from "./From/From";
 
-import Hocks_UseState2 from "./Hocks_UseState/index2";
+// import Hocks_UseState2 from "./Hocks_UseState/index2";
 // import Event_Binding from "./Event_Binding";
 // import Event_Hendler_Class from "./Event_Hendler_Class";
 // import Conditional_Rendering from "./conditional_rendaring";
