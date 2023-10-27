@@ -1,6 +1,6 @@
 
 import React from "react";
-import Toggle from "./Toggle/Toggle";
+import Faqs from "./Toggle/Faqs";
 // import Singup from "./FormValidation/Singup";
 // import Home from "./State_Lifting/Home";
 // import NestedList from "./components/nested_data_list";
@@ -27,7 +27,7 @@ export default function App(){
     return (
      
         <center>
-        <Toggle />
+        <Faqs />
         </center>
        
 
