@@ -10,6 +10,8 @@ import React from "react";
 // import ReactBootstrap from "./react_bootstrap/ReactBootstrap";
 
 
+import From from "./From/From";
+
 import Hocks_UseState2 from "./Hocks_UseState/index2";
 // import Event_Binding from "./Event_Binding";
 // import Event_Hendler_Class from "./Event_Hendler_Class";
@@ -26,7 +28,7 @@ export default function App(){
         {/* {<STATE />}
          */}
          {/* {<Conditional_Rendering />} */}
-         {<Hocks_UseState2 />}
+         {<From />}
          
         </>
     );
