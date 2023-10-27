@@ -9,7 +9,8 @@ import React from "react";
 // import { FaBeer } from 'react-icons/fa';
 // import ReactBootstrap from "./react_bootstrap/ReactBootstrap";
 
-import Conditional_Rendering from "./conditional_rendaring";
+import Event_Hendler_Class from "./Event_Hendler_Class";
+// import Conditional_Rendering from "./conditional_rendaring";
 export default function App(){
     return (
         <>   
@@ -21,7 +22,9 @@ export default function App(){
         {<ReactBootstrap />} */}
         {/* {<STATE />}
          */}
-         {<Conditional_Rendering />}
+         {/* {<Conditional_Rendering />} */}
+         {<Event_Hendler_Class />}
+         
         </>
     );
 }
