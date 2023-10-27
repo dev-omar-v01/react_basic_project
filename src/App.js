@@ -1,6 +1,7 @@
 
 import React from "react";
-import Singup from "./FormValidation/Singup";
+import Toggle from "./Toggle/Toggle";
+// import Singup from "./FormValidation/Singup";
 // import Home from "./State_Lifting/Home";
 // import NestedList from "./components/nested_data_list";
 // import Card1 from "./components/Card1";
@@ -26,7 +27,7 @@ export default function App(){
     return (
      
         <center>
-        <Singup />
+        <Toggle />
         </center>
        
 

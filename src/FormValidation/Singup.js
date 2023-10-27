@@ -11,9 +11,9 @@ export default function Singup() {
             password: '',
           },
           validationSchema:yup.object({
-            name:yup.string().min(2,"Name must have atleast 2 Charectar").required(),
-            email:yup.string().email().required(),
-            password:yup.string().min(6,"password bust have atleast 6 Charectar").required(),
+            name:yup.string().min(2,"Name must have atleast 2 Charectar"),
+            email:yup.string().email(),
+            password:yup.string().min(6,"password bust have atleast 6 Charectar"),
 
           }),
           onSubmit:(value,{resetForm})=>{
