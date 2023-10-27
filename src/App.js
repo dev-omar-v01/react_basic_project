@@ -1,6 +1,7 @@
 
 import React from "react";
-import Home from "./State_Lifting/Home";
+import Singup from "./FormValidation/Singup";
+// import Home from "./State_Lifting/Home";
 // import NestedList from "./components/nested_data_list";
 // import Card1 from "./components/Card1";
 // import Card2 from "./components/Card2";
@@ -14,30 +15,20 @@ import Home from "./State_Lifting/Home";
 // import From from "./From/From";
 // import Child from "./State_Lifting/Child";
 
+
+
 // import Hocks_UseState2 from "./Hocks_UseState/index2";
 // import Event_Binding from "./Event_Binding";
 // import Event_Hendler_Class from "./Event_Hendler_Class";
 // import Conditional_Rendering from "./conditional_rendaring";
 export default function App(){
-    const data ="i am a (app)";
-    const handleChildData=(childData)=>{
-        console.log(childData);
 
-    }
     return (
-        <>   
-        {/* {<NestedList />}
-        {<Card1 />}
-        {<Card2 name="Md Omar Farouk" />}
-        {<Card3 />}
-        {<FaBeer />}
-        {<ReactBootstrap />} */}
-        {/* {<STATE />}
-         */}
-         {/* {<Conditional_Rendering />} */}
-         {/* {<Child  data={data} onChildData={handleChildData} />} */}
-         {<Home />}
+     
+        <center>
+        <Singup />
+        </center>
+       
 
-        </>
     );
 }

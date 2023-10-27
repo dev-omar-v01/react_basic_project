@@ -7,8 +7,8 @@ export default function Todos(props) {
   return (
     <div>
 
-    {props.todos.map((todo)=>(
-       <Todo  todo={todo}/>
+    {props.todos.map((todo,index)=>(
+       <Todo key={index} todo={todo}/>
     ))}
       
     </div>
