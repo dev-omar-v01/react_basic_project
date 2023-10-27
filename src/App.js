@@ -1,5 +1,6 @@
 
 import React from "react";
+import Home from "./State_Lifting/Home";
 // import NestedList from "./components/nested_data_list";
 // import Card1 from "./components/Card1";
 // import Card2 from "./components/Card2";
@@ -11,7 +12,7 @@ import React from "react";
 
 
 // import From from "./From/From";
-import Child from "./State_Lifting/Child";
+// import Child from "./State_Lifting/Child";
 
 // import Hocks_UseState2 from "./Hocks_UseState/index2";
 // import Event_Binding from "./Event_Binding";
@@ -34,8 +35,9 @@ export default function App(){
         {/* {<STATE />}
          */}
          {/* {<Conditional_Rendering />} */}
-         {<Child  data={data} onChildData={handleChildData} />}
-         
+         {/* {<Child  data={data} onChildData={handleChildData} />} */}
+         {<Home />}
+
         </>
     );
 }
