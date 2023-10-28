@@ -1,6 +1,6 @@
 
 import React from "react";
-import DataFatch from "./UseEffect_hook/DataFatch";
+import DataFatch from "./UseEffect_hook/Custom_Hooks/DataFatch";
 
 export default function App(){
 
