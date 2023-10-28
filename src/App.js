@@ -1,6 +1,7 @@
 
 import React from "react";
-import Faqs from "./Toggle/Faqs";
+import UseEffectExample from "./UseEffect_hook/UseEffectExample";
+// import Faqs from "./Toggle/Faqs";
 // import Singup from "./FormValidation/Singup";
 // import Home from "./State_Lifting/Home";
 // import NestedList from "./components/nested_data_list";
@@ -27,7 +28,7 @@ export default function App(){
     return (
      
         <center>
-        <Faqs />
+        <UseEffectExample />
         </center>
        
 
