@@ -1,13 +1,13 @@
 
 import React from "react";
-import DataFatch from "./UseEffect_hook/Custom_Hooks/DataFatch";
+import React_Toastify from "./react_toastify/React_Toastify";
 
 export default function App(){
 
     return (
      
         <center>
-        <DataFatch />
+        <React_Toastify />
         </center>
        
 
