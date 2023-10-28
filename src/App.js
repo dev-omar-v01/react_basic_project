@@ -1,9 +1,9 @@
 
 import React from "react";
-import Users from "./propsType/Users";
+import LifeCycle from "./class_LifeCycle/LifeCycle";
 
 export default function App(){
     return (
-        <Users />
+        <LifeCycle />
     );
 }
