@@ -1,9 +1,9 @@
 
 import React from "react";
-import MainApp from "./country_project/MainApp";
+import Users from "./propsType/Users";
 
 export default function App(){
     return (
-        <MainApp />
+        <Users />
     );
 }
